@@ -321,8 +321,8 @@ Response:
 
 ```json
 {
-  "filename": "policy.pdf",
-  "chunks": 42,
+  "filename": "compliance.pdf",
+  "chunks": 6,
   "status": "indexed"
 }
 ```
@@ -339,7 +339,7 @@ Request:
 
 ```json
 {
-  "question": "What is the leave encashment policy?"
+  "question": "What are the top 5 best practices for compliance?"
 }
 ```
 
@@ -347,7 +347,7 @@ Response:
 
 ```json
 {
-  "answer": "Employees can carry forward up to 10 unused leave days.",
+  "answer": "The top 5 best practices from the provided context are...",
   "sources": [
     "Relevant chunk text..."
   ]
